@@ -1,0 +1,49 @@
+.login{
+  background-color: white;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.login__logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  object-fit: contain;
+  height: 31px;
+  width: 103px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.login__loginField{
+  margin: auto;
+  width: 30%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 100px;
+
+}
+
+
+.login__loginField > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 50%;
+
+}
+
+.login__loginField > p{
+  font-size: 12px;
+}
+.login__loginField > span {
+  font-size: 12px;
+}
+
+.login__loginField > h5{
+  margin-top: 20px;
+  color: red;
+}
